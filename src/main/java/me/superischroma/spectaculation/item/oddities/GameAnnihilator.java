@@ -1,10 +1,10 @@
 package superischroma.spectaculation.item.oddities;
 
 import superischroma.spectaculation.item.GenericItemType;
-import vn.giakhanhvn.skysim.features.item.MaterialFunction;
-import vn.giakhanhvn.skysim.features.item.MaterialStatistics;
-import vn.giakhanhvn.skysim.features.item.Rarity;
-import vn.giakhanhvn.skysim.features.item.SkullStatistics;
+import superischroma.spectaculation.item.MaterialFunction;
+import superischroma.spectaculation.item.MaterialStatistics;
+import superischroma.spectaculation.item.Rarity;
+import superischroma.spectaculation.item.SkullStatistics;
 
 public class GameAnnihilator
 implements MaterialStatistics,
