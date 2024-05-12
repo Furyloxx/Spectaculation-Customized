@@ -35,7 +35,16 @@ public interface MaterialStatistics
     {
         return true;
     }
+    default public boolean displayCoins() {
+        return false;
+    }
+    default public long getPrice() {
+        return 1L;
+    }
 
+    default public long getValue() {
+        return 1L;
+    }
     default ItemCategory getCategory()
     {
         return ItemCategory.TOOLS_MISC;
