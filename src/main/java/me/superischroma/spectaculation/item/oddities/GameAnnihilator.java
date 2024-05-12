@@ -1,6 +1,6 @@
 package vn.giakhanhvn.skysim.features.item.oddities;
 
-import vn.giakhanhvn.skysim.features.item.GenericItemType;
+import superischroma.spectaculation.item.GenericItemType;
 import vn.giakhanhvn.skysim.features.item.MaterialFunction;
 import vn.giakhanhvn.skysim.features.item.MaterialStatistics;
 import vn.giakhanhvn.skysim.features.item.Rarity;
