@@ -1,4 +1,4 @@
-package vn.giakhanhvn.skysim.features.item.oddities;
+package superischroma.spectaculation.item.oddities;
 
 import superischroma.spectaculation.item.GenericItemType;
 import vn.giakhanhvn.skysim.features.item.MaterialFunction;
