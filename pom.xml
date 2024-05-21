@@ -67,6 +67,10 @@
           <id>spigot-repo</id>
 <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/bukkit/bukkit/</url>
       </repository>
+             <repository>
+          <id>songoda</id>
+          <url>https://repo.songoda.com/repository/public</url>
+      </repository>
         <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
