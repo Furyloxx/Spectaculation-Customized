@@ -163,6 +163,5 @@
           <version>4.2</version>
           <scope>compile</scope>
       </dependency>
-      </dependency>
   </dependencies>
 </project>
