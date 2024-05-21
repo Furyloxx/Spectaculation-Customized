@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>SkySimEngine</groupId>
-  <artifactId>SkySimEngine</artifactId>
+  <groupId>Spectaculation</groupId>
+  <artifactId>Spectaculation</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -137,12 +137,6 @@
           <scope>provided</scope>
       </dependency>
       <dependency>
-          <groupId>me.clip</groupId>
-          <artifactId>placeholderapi</artifactId>
-          <version>2.11.5</version>
-          <scope>provided</scope>
-      </dependency>
-      <dependency>
           <groupId>com.github.koca2000</groupId>
           <artifactId>NoteBlockAPI</artifactId>
           <version>1.6.1</version>
@@ -164,24 +158,11 @@
           <version>2.3.0</version>
       </dependency>
       <dependency>
-          <groupId>com.comphenix.protocol</groupId>
-          <artifactId>ProtocolLib</artifactId>
-          <version>4.3.0</version>
-          <scope>system</scope>
-          <systemPath>${basedir}/dependencies/ProtocolLib.jar</systemPath>
-      </dependency>
-      <dependency>
           <groupId>de.slikey</groupId>
           <artifactId>EffectLib</artifactId>
           <version>4.2</version>
           <scope>compile</scope>
       </dependency>
-      <dependency>
-          <groupId>LibsDisguises</groupId>
-          <artifactId>LibsDisguises</artifactId>
-          <version>8.6.7</version>
-          <scope>system</scope>
-          <systemPath>${basedir}/dependencies/LibsDisguises.jar</systemPath>
       </dependency>
   </dependencies>
 </project>
