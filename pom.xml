@@ -62,7 +62,10 @@
     </build>
 
     <repositories>
-
+         <repository>
+          <id>songoda</id>
+          <url>https://repo.songoda.com/repository/public</url>
+        </repository>
         <repository>
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
@@ -80,10 +83,6 @@
             <id>enginehub-maven</id>
             <url>https://maven.enginehub.org/repo/</url>
         </repository>
-        <repository>
-          <id>songoda</id>
-          <url>https://repo.songoda.com/repository/public</url>
-       </repository>
     </repositories>
 
     <dependencies>
