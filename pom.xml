@@ -63,8 +63,12 @@
 
     <repositories>
          <repository>
-          <id>songoda</id>
-          <url>https://repo.songoda.com/repository/public</url>
+            <id>songoda</id>
+            <url>https://repo.songoda.com/repository/public</url>
+        </repository>
+        <repository>
+	   <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
             <id>sonatype</id>
@@ -74,7 +78,6 @@
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
-
         <repository>
             <id>everything</id>
             <url>https://repo.citizensnpcs.co/</url>
