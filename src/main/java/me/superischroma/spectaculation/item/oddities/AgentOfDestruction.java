@@ -12,11 +12,13 @@ public String getDisplayName()
 {
 return "Agent Of Destruction";
 } 
+ 
 @Override
 public Rarity getRarity()  
 { 
 return Rarity.VERY_SPECIAL; 
 } 
+ 
 @Override  
 public String getLore() 
 {
@@ -26,19 +28,23 @@ return "The &cGreat Bulla Cyclone The rain that stung like a thousand needles, "
 "Millions of people died near the coast, "+
 " The Most Dangerous Cyclone know as the &cGreat Bulla Cyclone.";
 }
+ 
 @Override 
 public GenericItemType getType() 
 {  
 return GenericItemType.ITEM;
 }
+ 
 @Override
 public boolean isStackable() 
 {
  return false;  
 }  
+ 
 @Override 
 public String getURL() 
 { 
 return "b543bbd96571b1e35aa039a5ebad65f41427c8b8871ddf767580f3a5b1622fbf"; 
 }
+ 
 }
