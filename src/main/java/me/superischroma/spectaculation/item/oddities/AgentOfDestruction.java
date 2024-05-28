@@ -1,8 +1,10 @@
 package me.superischroma.spectaculation.item.oddities;
 
 import me.superischroma.spectaculation.item.MaterialFunction; 
-import me.superischroma.spectaculation.item.Rarity; import me.superischroma.spectaculation.item.GenericItemType; 
+import me.superischroma.spectaculation.item.Rarity; 
+import me.superischroma.spectaculation.item.GenericItemType; 
 import me.superischroma.spectaculation.item.SkullStatistics; 
+
 public class AgentOfDestruction implements SkullStatistics, MaterialFunction 
 {
 @Override 
