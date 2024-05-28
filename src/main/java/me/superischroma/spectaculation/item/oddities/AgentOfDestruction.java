@@ -18,11 +18,11 @@ return Rarity.VERY_SPECIAL;
 @Override  
 public String getLore() 
 {
-return "The &cGreat Bulla Cyclone" The rain that stung like a thousand needles, "+ 
+return "The &cGreat Bulla Cyclone The rain that stung like a thousand needles, "+ 
 "The water that struck like a tsunami, "+ 
-Thousands of homes where swept away with the water, "+
-Millions of people died near the coast, "+
- The Most Dangerous Cyclone know as the &cGreat Bulla Cyclone.";
+"Thousands of homes where swept away with the water, "+
+"Millions of people died near the coast, "+
+" The Most Dangerous Cyclone know as the &cGreat Bulla Cyclone.";
 @Override 
 public GenericItemType getType() 
 {  
