@@ -25,7 +25,7 @@ return "The &cGreat Bulla Cyclone The rain that stung like a thousand needles, "
 "Thousands of homes where swept away with the water, "+
 "Millions of people died near the coast, "+
 " The Most Dangerous Cyclone know as the &cGreat Bulla Cyclone.";
- 
+}
 @Override 
 public GenericItemType getType() 
 {  
@@ -40,4 +40,5 @@ public boolean isStackable()
 public String getURL() 
 { 
 return "b543bbd96571b1e35aa039a5ebad65f41427c8b8871ddf767580f3a5b1622fbf"; 
+}
 }
