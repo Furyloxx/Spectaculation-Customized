@@ -50,4 +50,5 @@ public class WTF implements ToolStatistics, MaterialFunction
     public static ItemStack createCustomItem() {
         ItemStack item = new ItemStack(Material.DIAMOND_SWORD); // Change to your desired item
         ItemMeta meta = item.getItemMeta();
+    }
 }
