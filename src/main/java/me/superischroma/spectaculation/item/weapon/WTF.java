@@ -48,8 +48,6 @@ public class WTF implements ToolStatistics, MaterialFunction
     }
     
     @Override
- public static 
-    {
-    ItemStack(Material.DIAMOND_SWORD);
-    } 
+ public static ItemStack(Material.DIAMOND_SWORD);
+    
 }
