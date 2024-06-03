@@ -9,7 +9,6 @@ import java.util.Arrays;
 
 import com.avaje.ebeaninternal.server.core.PersistRequest;
 import com.avaje.ebeaninternal.server.core.RelationalQueryEngine;
-
 import me.superischroma.spectaculation.item.*;
 
 public class WTF implements ToolStatistics, MaterialFunction
@@ -27,7 +26,7 @@ public class WTF implements ToolStatistics, MaterialFunction
     }
 
     @Override
-    public getRarity()
+    public Rarity getRarity()
     {
         return Rarity.EPIC;
     }
