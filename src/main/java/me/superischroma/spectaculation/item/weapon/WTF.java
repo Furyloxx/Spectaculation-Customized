@@ -45,8 +45,9 @@ public class WTF implements ToolStatistics, MaterialFunction
         return "Fuck Off Noob";
     }
 
-    public static ItemStack createCustomItem() {
-        ItemStack item = new ItemStack(Material.DIAMOND_SWORD); // Change to your desired item
+    public static ItemStack createCustomItem() 
+    {
+        return ItemStack item = new ItemStack(Material.DIAMOND_SWORD); // Change to your desired item
         ItemMeta meta = item.getItemMeta();
     }
 }
