@@ -29,7 +29,7 @@ public class WTF implements ToolStatistics, MaterialFunction
     @Override
     public getRarity()
     {
-        return Rarity.EPIC
+        return Rarity.EPIC;
     }
     @Override
     public GenericItemType getType()
@@ -40,18 +40,18 @@ public class WTF implements ToolStatistics, MaterialFunction
     @Override
     public SpecificItemType getSpecificItemType()
     {
-        return SpecificItemType.SWORD
+        return SpecificItemType.SWORD;
     }
 
     @Override
     public String getLore()
     {
-        return "Fuck Off Noob"
+        return "Fuck Off Noob";
     }
     
     @Override
  public static 
     {
-    ItemStack(Material.DIAMOND_SWORD)
+    ItemStack(Material.DIAMOND_SWORD);
     } 
 }
