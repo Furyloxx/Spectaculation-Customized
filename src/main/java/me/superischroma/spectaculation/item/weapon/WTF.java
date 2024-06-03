@@ -46,8 +46,8 @@ public class WTF implements ToolStatistics, MaterialFunction
     {
         return "Fuck Off Noob";
     }
-    
-    @Override
- public static ItemStack(Material.DIAMOND_SWORD);
-    
+
+    public static ItemStack createCustomItem() {
+        ItemStack item = new ItemStack(Material.DIAMOND_SWORD); // Change to your desired item
+        ItemMeta meta = item.getItemMeta();
 }
