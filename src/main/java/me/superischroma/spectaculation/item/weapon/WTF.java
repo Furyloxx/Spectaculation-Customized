@@ -22,7 +22,6 @@ public class WTF implements ToolStatistics, MaterialFunction
     {
         return "WTF";
     }
-
     @Override
     public Rarity getRarity()
     {
@@ -47,6 +46,7 @@ public class WTF implements ToolStatistics, MaterialFunction
 
     public static ItemStack createCustomItem() 
     {
-        return ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
+        return ItemStack item = new ItemStack(Material.DIAMOND_SWORD)
+            ;
     }
 }
