@@ -12,6 +12,10 @@ import me.superischroma.spectaculation.item.*;
 public class WTF implements ToolStatistics, MaterialFunction
     
 {
+    public static ItemStack getMinecraftItem() {
+        ItemStack item = new ItemStack(Material.DIAMOND_SWORD); // Change to your desired item
+        ItemMeta meta = item.getItemMeta();
+    
     public int getBaseDamage()
     {
         return 10000;
@@ -22,11 +26,12 @@ public class WTF implements ToolStatistics, MaterialFunction
     {
         return "WTF";
     }
-    @Override
+
     public Rarity getRarity()
     {
         return Rarity.EPIC;
     }
+
     @Override
     public GenericItemType getType()
     {
@@ -44,9 +49,5 @@ public class WTF implements ToolStatistics, MaterialFunction
         return "Fuck Off Noob";
     }
 
-    public static ItemStack createCustomItem() 
-    {
-        return ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
-            ;
     }
 }
