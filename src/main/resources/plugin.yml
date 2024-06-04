@@ -3,6 +3,3 @@ version: 1.0
 main: me.superischroma.spectaculation.Spectaculation
 authors: [ super ]
 description: ridiculousness
-commands:
- ib:
-  description: Open the custom item interface
