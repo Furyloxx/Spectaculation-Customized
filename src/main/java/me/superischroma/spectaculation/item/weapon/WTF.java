@@ -48,6 +48,5 @@ public class WTF implements ToolStatistics, MaterialFunction
     {
         return "Fuck Off Noob";
     }
-
-    }
+  }
 }
