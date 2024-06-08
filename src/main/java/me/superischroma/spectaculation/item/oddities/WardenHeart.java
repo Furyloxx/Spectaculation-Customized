@@ -9,7 +9,8 @@ import me.superischroma.spectaculation.item.SkullStatistics;
 public class WardenHeart
 implements MaterialStatistics,
 MaterialFunction,
-SkullStatistics {
+SkullStatistics
+{
     @Override
     public String getDisplayName() {
         return "Warden Heart";
