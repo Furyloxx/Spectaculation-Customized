@@ -64,7 +64,7 @@ import me.superischroma.spectaculation.item.sven.*;
 import me.superischroma.spectaculation.item.tarantula.*;
 import me.superischroma.spectaculation.item.weapon.*;
 import me.superischroma.spectaculation.item.weapon.vanilla.*;
-import me.superischroma.spectaculation.item.armour.*;
+import me.superischroma.spectaculation.item.armor.*;
 import me.superischroma.spectaculation.util.SUtil;
 import org.bukkit.Material;
 import org.bukkit.inventory.PlayerInventory;
