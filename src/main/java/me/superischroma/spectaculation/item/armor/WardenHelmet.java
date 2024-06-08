@@ -4,7 +4,7 @@ import me.superischroma.spectaculation.item.Ability;
 import me.superischroma.spectaculation.item.AbilityActivation;
 import me.superischroma.spectaculation.item.GenericItemType;
 import me.superischroma.spectaculation.item.MaterialFunction;
-import me.superischroma.spectaculation.item.Ratity;
+import me.superischroma.spectaculation.item.Rarity;
 import me.superischroma.spectaculation.item.SItem;
 import me.superischroma.spectaculation.item.SkullStatistics;
 import me.superischroma.spectaculation.item.SpecificItemType;
