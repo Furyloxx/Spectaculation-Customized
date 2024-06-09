@@ -3,4 +3,4 @@ islands:
   x: 0
   z: 0
 name : 'SKYBLOCK'
-ip : 'mc.fakeorigin.net'  # ip you want to display in scoreboard
+ip : 'mc.fakeorigin.net'
