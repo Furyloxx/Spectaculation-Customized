@@ -87,6 +87,7 @@ public enum SMaterial
     // Dragon Assets
     WARDEN_HEART(Material.SKULL_ITEM, WardenHeart.class),
     WARDEN_HELMET(Material.SKULL_ITEM, WardenHelmet.class),
+    NECRONS_HANDLE(Material.STICK, NecronHandle.class),
     SUMMONING_EYE(Material.SKULL_ITEM, SummoningEye.class),
     SLEEPING_EYE(Material.SKULL_ITEM, SleepingEye.class),
     REMNANT_OF_THE_EYE(Material.SKULL_ITEM, RemnantOfTheEye.class),
