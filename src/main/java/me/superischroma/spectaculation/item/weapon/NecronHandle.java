@@ -19,18 +19,16 @@ MaterialFunction {
     public GenericItemType getType() {
         return GenericItemType.ITEM;
     }
-
+    
     @Override
     public boolean isEnchanted() {
         return true;
     }
 
-    @Override
     public boolean isStackable() {
         return false;
     }
 
-    @Override
     public long getValue() {
         return 200000000L;
     }
