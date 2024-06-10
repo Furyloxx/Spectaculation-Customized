@@ -35,7 +35,6 @@ MaterialFunction {
         return 200000000L;
     }
 
-    @Override
     public long getPrice() {
         return 200000000L;
     }
