@@ -73,12 +73,7 @@ Ability {
         Location location = player.getTargetBlock((Set)null, 6).getLocation();
         final Giant sword = (Giant)player.getWorld().spawnEntity(location, EntityType.GIANT);
         sword.addPotionEffect(new PotionEffect(PotionEffectType.INVISIBILITY, 100000, 1));
-        EntityManager.noAI((Entity)sword);
-        EntityManager.noHit((Entity)sword);
-        EntityManager.shutTheFuckUp((Entity)sword);
-        sword.setCustomName("Dinnerbone");
-        sword.setMetadata("GiantSword", (MetadataValue)new FixedMetadataValue((Plugin)SkySimEngine.getPlugin(), (Object)true));
-        sword.setMetadata("NoAffect", (MetadataValue)new FixedMetadataValue((Plugin)SkySimEngine.getPlugin(), (Object)true));
+     
         final ArmorStand stand = (ArmorStand)player.getWorld().spawnEntity(location, EntityType.ARMOR_STAND);
         stand.setVisible(false);
         stand.setGravity(true);
@@ -91,15 +86,7 @@ Ability {
         player.getWorld().playEffect(sword.getLocation().add(sword.getLocation().getDirection().multiply(3.0)).add(0.0, -1.0, 0.0), Effect.EXPLOSION_HUGE, 1);
         for (Entity entity : sword.getWorld().getNearbyEntities(sword.getLocation().add(sword.getLocation().getDirection().multiply(3.0)), 6.0, 6.0, 6.0)) {
             if (entity.isDead() || !(entity instanceof LivingEntity) || entity.hasMetadata("GiantSword") || entity instanceof Player || entity instanceof EnderDragonPart || entity instanceof Villager || entity instanceof ArmorStand) continue;
-            User user = User.getUser(player.getUniqueId());
-            double baseDamage = Sputnik.calculateMagicDamage(entity, player, 100000, 0.05);
-            user.damageEntityIgnoreShield((Damageable)((LivingEntity)entity), baseDamage);
-            ++i;
-            j += baseDamage;
-            PlayerListener.spawnDamageInd(entity, baseDamage, false);
-        }
-        if (i > 0) {
-            if (i == 1) {
+          
                 player.sendMessage(ChatColor.GRAY + "Your Implosion hit " + ChatColor.RED + i + ChatColor.GRAY + " enemy for " + ChatColor.RED + SUtil.commaify(j) + ChatColor.GRAY + " damage.");
             } else {
                 player.sendMessage(ChatColor.GRAY + "Your Implosion hit " + ChatColor.RED + i + ChatColor.GRAY + " enemies for " + ChatColor.RED + SUtil.commaify(j) + ChatColor.GRAY + " damage.");
