@@ -90,3 +90,5 @@ Ability {
                 giant.remove();
                 giant.setHealth(0);
             }
+    }
+}
