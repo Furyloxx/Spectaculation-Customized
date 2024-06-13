@@ -4,7 +4,7 @@ import me.superischroma.spectaculation.user.User;
 import me.superischroma.spectaculation.util.SUtil;
 import org.bukkit.command.ConsoleCommandSender;
 
-@CommandParameters(description = "Modify your coin amount.", permission = "spt.balance")
+@CommandParameters(description = "Modify your coin amount.", permission = "")
 public class CoinsCommand extends SCommand
 {
     @Override
