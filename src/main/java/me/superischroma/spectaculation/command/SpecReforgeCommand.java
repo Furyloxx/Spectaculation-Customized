@@ -7,7 +7,7 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-@CommandParameters(description = "Reforge an item from Spec.", aliases = "sref", permission = "spt.item")
+@CommandParameters(description = "Reforge an item from Spec.", aliases = "sref", permission = "")
 public class SpecReforgeCommand extends SCommand
 {
     @Override
