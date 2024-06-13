@@ -7,7 +7,7 @@ import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-@CommandParameters(description = "Modifies the rarity of an item.", aliases = "srar", permission = "spt.item")
+@CommandParameters(description = "Modifies the rarity of an item.", aliases = "srar", permission = "")
 public class SpecRarityCommand extends SCommand
 {
     @Override
