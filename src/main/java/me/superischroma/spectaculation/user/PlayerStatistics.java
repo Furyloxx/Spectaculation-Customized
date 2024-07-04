@@ -25,6 +25,7 @@ public class PlayerStatistics
     private final DoublePlayerStatistic magicFind;
     private final DoublePlayerStatistic intelligence;
     private final DoublePlayerStatistic trueDefense;
+    private final DoublePlayerStatistic miningSpeed;
     @Setter
     private double healthRegenerationPercentBonus;
     @Setter
@@ -53,6 +54,7 @@ public class PlayerStatistics
         this.trueDefense = trueDefense;
         this.healthRegenerationPercentBonus = healthRegenerationPercentBonus;
         this.manaRegenerationPercentBonus = manaRegenerationPercentBonus;
+        this.miningSpeed = miningSpeed;
         this.armorSet = armorSet;
         this.itemTicker = new HashMap<>();
     }
